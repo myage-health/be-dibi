@@ -13,7 +13,7 @@ namespace Dibi;
 /**
  * DateTime.
  */
-class DateTime extends \DateTimeImmutable
+class DateTime extends \DateTime
 {
 	public function __construct(string|int $time = 'now', ?\DateTimeZone $timezone = null)
 	{
